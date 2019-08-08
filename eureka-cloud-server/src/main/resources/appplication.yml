@@ -1,0 +1,37 @@
+#spring:
+#  ##数据库连接信息
+# datasource:
+#  url: jdbc:mysql://localhost:3306/testforshiro?useunicode=true&characterEncoding=utf8&serverTimezone=UTC
+#  username: root
+#  password: root
+#  driver-class-name: com.mysql.jdbc.Driver
+#  max-idle: 10
+#  max-wait: 10000
+#  min-idle: 5
+#  initial-size: 5
+#
+#server:
+#  port: 8761
+#
+#eureka:
+#  instance:
+#    hostname: localhost
+#    statusPageUrl: http://localhost:8761
+#    service-url:
+#      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+#    secure-port-enabled: true
+#  client:
+#    registerWithEureka: false
+#    fetchRegistry: false
+#server:
+#  port: 8888
+#eureka:
+#  instance:
+#    hostname: localhost
+#  client:
+#    registerWithEureka: false
+#    fetchRegistry: false
+#    serviceUrl:
+#      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+

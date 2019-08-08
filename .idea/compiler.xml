@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-config-client" />
+        <module name="cloud-member-server" />
+        <module name="cloud-order-feign" />
+        <module name="cloud-order-server" />
+        <module name="could-config-server" />
+        <module name="demo" />
+        <module name="eureka-cloud-server" />
+        <module name="server-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
